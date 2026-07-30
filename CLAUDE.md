@@ -13,6 +13,9 @@
 - 완성형 산문 보고서는 사용자가 명시적으로 요청할 때만 작성한다.
 - 템플릿: `templates/research-brief-template.md`(기본), `templates/report-template.md`(완성형).
 
+## 표기 규칙
+- 달러 금액은 **억$ 단위**로 표기한다. (예: $2B → 20억$, $3.2B → 32억$, $500M → 5억$)
+
 ## 저장 위치·폴더 규칙
 - 결과물은 레포에 저장한다. `reports/YYYY-MM_슬러그/` 규칙, `research/`는 슬러그 1:1 대응.
 - 자세한 폴더 운영 원칙은 `README.md` 참조.
