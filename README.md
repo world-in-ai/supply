@@ -12,8 +12,12 @@ supply/
 │   └── 2026-07_ai-network-cpo/   # AI 네트워크(칩 간 데이터 전송) — CPO 중심
 │       ├── report.md             #   └ 본문
 │       ├── summary.md            #   └ 1페이지 요약(경영진용)
-│       ├── nvidia-supply-chain-investments.md  # └ 부록: 엔비디아 CPO 공급망 투자 정리
-│       └── assets/               #   └ 도표·다이어그램·이미지
+│   │   ├── nvidia-supply-chain-investments.md  # └ 부록: 엔비디아 CPO 공급망 투자 정리
+│   │   └── assets/               #   └ 도표·다이어그램·이미지
+│   └── 2026-07_datacenter-cpo-stocks/  # CPO 도입과 데이터센터 관련주 영향
+│       ├── report.md             #   └ 본문 (밸류체인별 관련주·티커·영향)
+│       ├── summary.md            #   └ 1페이지 요약
+│       └── assets/
 ├── research/                     # 리서치 노트·원자료 (보고서 주제별)
 │   └── ai-network-cpo/
 │       └── sources.md            # 출처 목록 및 핵심 수치 메모
@@ -33,3 +37,4 @@ supply/
 | 발행 | 주제 | 핵심 | 위치 |
 |------|------|------|------|
 | 2026-07 | AI 네트워크(칩 간 데이터 전송) 기술 동향 | CPO(Co-Packaged Optics) 도입 | [reports/2026-07_ai-network-cpo](reports/2026-07_ai-network-cpo/report.md) |
+| 2026-07 | CPO 도입과 데이터센터 관련주 영향 | 밸류체인별 관련주·티커 매핑 | [reports/2026-07_datacenter-cpo-stocks](reports/2026-07_datacenter-cpo-stocks/report.md) |
