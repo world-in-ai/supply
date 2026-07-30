@@ -14,6 +14,24 @@
 
 ---
 
+## 투자 통합 표 (주요 업체 · 투자 내용 · 투자 금액)
+
+대형 전략 투자(A)와 스타트업 벤처 투자(B)를 한 표로 정리. 금액은 언론 보도 기준.
+
+| 주요 업체 | 유형 | 투자 내용 | 투자 금액 (시점) |
+|-----------|------|-----------|------------------|
+| **Coherent** | 광 부품·레이저·CPO 광엔진 (전략 파트너십) | 지분 + 다년 수십억$ 구매약정 + 캐파/우선접근권, 美 생산라인 증설 지원 | **약 $2B** (2026.03) |
+| **Lumentum** | CW 레이저(광원) (전략 파트너십) | 지분 + 구매약정 + 캐파 확보권, 美 신규 팹 지원 | **약 $2B** (2026.03) |
+| **Marvell** | 커스텀 XPU·광 DSP·실리콘 포토닉스 (지분) | NVLink Fusion 연계, Celestial AI(Photonic Fabric) 기반 | **약 $2B** (2026.03~04) |
+| **Corning** | 광섬유·광 커넥티비티 (주식 취득권) | 美 광섬유 캐파 50%+·커넥티비티 10배 확대, 공장 3곳 | **약 $0.5B** (광범위 딜 최대 ~$3.2B, 2026.05) |
+| **Ayar Labs** | 인패키지 광 I/O (스타트업) | Series C(2023.05, $155M)부터 참여 → Series E까지 지속 투자 | **Series E $500M 참여** (밸류 $3.75B, 누적 $870M, 2026.03) |
+| **Xscape Photonics** | 다파장(8-color) 레이저 FalconX (스타트업) | Cisco와 공동 라운드 참여 | **Series A $44M 참여** (+후속 $37M) |
+| — 합계 — | 광통신(photonics) 전체 | 2026.03 이후 커밋 총액 | **$6.5B+** |
+
+> 금액 주의: 대형 4건은 지분+구매약정+캐파권이 섞인 패키지 딜의 **총 규모**이고(순수 지분과 다름), 스타트업 2건은 엔비디아가 **참여한 라운드 전체 규모**(엔비디아 단독 출자액 아님). Lightmatter 등은 CPO 경쟁사이나 엔비디아 투자가 확인되지 않아 제외.
+
+---
+
 ## A. 대형 전략 투자 / 지분 (핵심 공급망 락인)
 
 | 대상 | 규모(보도 기준) | 형태 | 발표 시점 | 내용 |
@@ -37,7 +55,7 @@
 | **Ayar Labs** | Series E, 5억 달러 (2026.03, 밸류 $3.75B) | 라운드 참여 | 인패키지 **광 I/O(optical I/O)**, CPO 선구자 |
 | **Xscape Photonics** | Series A $44M (+후속 $37M) | 참여(기존 투자자) | 다파장(8-color) 레이저 **FalconX** |
 
-- **Ayar Labs**: CPO/광 I/O의 대표 스타트업. 5억 달러 Series E를 AMD·MediaTek·Intel Capital·Sequoia 등과 함께 참여. 가속기 패키지 안에 광 인터페이스를 직접 넣는 "in-package optical I/O"로, 스위치를 넘어 **가속기 단(scale-up)까지 광 확장**을 겨냥.
+- **Ayar Labs**: CPO/광 I/O의 대표 스타트업. 엔비디아는 **2023.05 Series C($155M)부터 참여**해온 장기 투자자이며, 2026.03 **Series E($500M, 밸류 $3.75B, 누적 $870M)**를 AMD·Intel Capital·Neuberger Berman 등과 함께 참여. 가속기 패키지 안에 광 인터페이스를 직접 넣는 "in-package optical I/O"로, 스위치를 넘어 **가속기 단(scale-up)까지 광 확장**을 겨냥.
 - **Xscape Photonics**: AI 데이터센터 네트워크용 다파장 레이저. Cisco와 함께 엔비디아가 참여.
 
 ## C. GTC 2025 CPO 생태계 협력사 (자본 투자와 별개인 공급/협력)
@@ -90,5 +108,7 @@
 15. TechFundingNews, "NVIDIA invests $2B in Marvell: NVLink Fusion ecosystem lock-in", https://techfundingnews.com/nvidia-2-billion-marvell-nvlink-fusion-ai-ecosystem/
 16. CNBC, "Nvidia to invest up to $3.2 billion in Corning as part of massive optical fiber deal" (2026.05.06), https://www.cnbc.com/2026/05/06/nvidia-corning-optical-factories-nc-texas-ai.html
 17. Bloomberg, "Nvidia Inks $500 Million Deal With Fiber-Optic Maker Corning" (2026.05.06), https://www.bloomberg.com/news/articles/2026-05-06/nvidia-buys-500-million-of-rights-for-stock-in-corning
+18. The Register, "Ayar Labs raises $500M to mass-produce CPO chiplets" (2026.03.03), https://www.theregister.com/2026/03/03/ayar_labs_500m/
+19. Ayar Labs, "Ayar Labs Secures $155M Series C, includes AMD, Intel Capital, NVIDIA" (2023.05), https://ayarlabs.com/news/ayar-labs-155m-series-d-to-address-ai-infrastructure-includes-amd-intel-capital-nvidia/
 
 > 주의: 투자 금액은 언론 보도 기준의 근사치이며, 일부는 지분·구매약정·캐파 확보권이 혼합된 패키지 딜이라 "순수 지분 규모"와 다를 수 있음. Corning은 보도에 따라 "$500M 주식취득권"과 "최대 $3.2B 광범위 딜"이 함께 언급됨.
