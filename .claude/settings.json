@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit",
+      "Write",
+      "WebSearch",
+      "WebFetch",
+      "Skill",
+      "Bash(git *)",
+      "Bash(mkdir *)",
+      "Bash(ls)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(find *)",
+      "Bash(printf *)",
+      "Bash(echo *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(wc *)",
+      "Bash(pwd)",
+      "Bash(touch *)",
+      "Bash(mv *)",
+      "Bash(cp *)",
+      "Bash(diff *)",
+      "Bash(stat *)",
+      "Bash(sort *)",
+      "Bash(uniq *)",
+      "Bash(tree *)",
+      "Bash(date)",
+      "mcp__github__get_me",
+      "mcp__github__get_file_contents",
+      "mcp__github__get_commit",
+      "mcp__github__pull_request_read",
+      "mcp__github__list_pull_requests",
+      "mcp__github__list_commits",
+      "mcp__github__list_branches",
+      "mcp__github__create_pull_request",
+      "mcp__github__update_pull_request",
+      "mcp__github__subscribe_pr_activity",
+      "mcp__github__unsubscribe_pr_activity"
+    ],
+    "ask": [
+      "Bash(rm *)",
+      "Bash(sudo *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(chmod *)",
+      "Bash(chown *)",
+      "Bash(dd *)",
+      "mcp__github__merge_pull_request",
+      "mcp__github__delete_file"
+    ],
+    "deny": [
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~*)",
+      "Bash(:(){ :|:& };:)"
+    ]
+  }
+}
