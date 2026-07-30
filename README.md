@@ -13,6 +13,7 @@ supply/
 │       ├── report.md             #   └ 본문
 │       ├── summary.md            #   └ 1페이지 요약(경영진용)
 │   │   ├── nvidia-supply-chain-investments.md  # └ 부록: 엔비디아 CPO 공급망 투자 정리
+│   │   ├── broadcom-brief.md      #   └ 브리프: 브로드컴(개방 진영) CPO·AI 네트워킹
 │   │   └── assets/               #   └ 도표·다이어그램·이미지
 │   └── 2026-07_datacenter-cpo-stocks/  # CPO 도입과 데이터센터 관련주 영향
 │       ├── report.md             #   └ 본문 (밸류체인별 관련주·티커·영향)
