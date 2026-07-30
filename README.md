@@ -12,6 +12,7 @@ supply/
 │   └── 2026-07_ai-network-cpo/   # AI 네트워크(칩 간 데이터 전송) — CPO 중심
 │       ├── report.md             #   └ 본문
 │       ├── summary.md            #   └ 1페이지 요약(경영진용)
+│       ├── nvidia-supply-chain-investments.md  # └ 부록: 엔비디아 CPO 공급망 투자 정리
 │       └── assets/               #   └ 도표·다이어그램·이미지
 ├── research/                     # 리서치 노트·원자료 (보고서 주제별)
 │   └── ai-network-cpo/

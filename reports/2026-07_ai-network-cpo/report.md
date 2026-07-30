@@ -125,6 +125,7 @@
   - **2H26 출시 예정**
 - **기술**: 200Gb/s **MRM**으로 전력 3.5배 절감, TSMC **COUPE** 패키징
 - **메시지**: "구리 이후(post-copper)" 네트워크로 수백만 GPU AI 팩토리 확장
+- **공급망 선점**: 엔비디아는 GTC 2025 생태계 협력을 2026년 지분 투자(Coherent·Lumentum 각 ~$2B, Marvell ~$2B, Corning ~$0.5B, Ayar Labs Series E 등, 광통신에 총 $6.5B+)로 격상해 CPO 공급망을 락인 → 상세는 [`nvidia-supply-chain-investments.md`](nvidia-supply-chain-investments.md)
 
 ### 6.2 Broadcom — 개방형 생태계 전략 (Bailly)
 
