@@ -15,6 +15,7 @@ supply/
 │   │   ├── nvidia-supply-chain-investments.md  # └ 부록: 엔비디아 CPO 공급망 투자 정리
 │   │   ├── broadcom-brief.md      #   └ 브리프: 브로드컴(개방 진영) CPO·AI 네트워킹
 │   │   ├── foundry-packaging-brief.md  # └ 브리프: 제조/패키징 진영(TSMC·삼성·GF·인텔)+유리기판
+│   │   ├── intel-cpo-brief.md     #   └ 브리프: 인텔 CPO/광 집적 상세(OCI·유리기판·정정목록)
 │   │   └── assets/               #   └ 도표·다이어그램·이미지
 │   └── 2026-07_datacenter-cpo-stocks/  # CPO 도입과 데이터센터 관련주 영향
 │       ├── report.md             #   └ 본문 (밸류체인별 관련주·티커·영향)
