@@ -7,7 +7,7 @@
 ## TL;DR
 - GF는 **광반도체(실리콘 포토닉스) 전문 파운드리** — **광학칩(PIC)을 2018년부터 실제 양산**한 유일 업체(4사 중), AMF 인수로 **세계 최대 순수 SiPh 파운드리**.
 - CPO는 **"merchant CPO provider"** 지향 — 남의 프로세서에 붙는 **광엔진(SCALE) 모듈을 제조·판매**. 단 **대형 로직 결합(CoWoS급)은 안 하고 고객이 함**.
-- CPO 본격 양산(변곡점)은 **2028년 말~2029년**(GF 경영진 가이던스).
+- ⚠️ **CPO 본격 양산 시점은 GF 공식 미발표** — "2028말~2029 변곡점" 등은 trade press/실적 콜 코멘터리뿐(공식 실적 press release 미기재). 사실로 단정 금지.
 
 ## 핵심 팩트 / 수치 (검증 완료)
 | 항목 | 내용 | 출처 등급 |
@@ -17,8 +17,8 @@
 | **기술 계보** | IBM 마이크로일렉트로닉스 인수('15)로 확보 → 자체 상용화(Fotonix '22) → **AMF 인수('25.11)로 확장** | 1급(GF 공식) |
 | **CPO 제품** | **SCALE**(광엔진 모듈) 출시 '26.5 — 업계 첫 OCI MSA 호환, 8λ/16λ DWDM | 1급(GF 공식) |
 | **3D 하이브리드 본딩 대상** | **PIC + EIC**(광엔진 내부 결합) — 구리-구리 다이본딩, sub-10µm 피치, 솔더 없이 | 2급 |
-| **CPO 양산 전망** | **2028년 말~2029년 변곡점**(SiPh 2단계 성장 중 CPO) | 2급(GF 가이던스) |
-| **매출** | SiPh 매출 '26 2배 → '28년 말 10억 달러 run rate → 장기 20억 달러 | 2급 |
+| **OFC 2026 CPO 파트너십** | SENKO(wafer-level detachable fiber), **Corning+GF+EXFO(CPO 생태계)**, Siluxtek(200G/lane SiPh 수신칩 GF 공정 제조) | **1급(GF Q1'26 실적)** |
+| **CPO 양산 전망** | (하향) "2028말~2029 변곡점·SiPh 매출 '28 $1B"은 **trade press/실적 콜 코멘터리**뿐 — **GF 공식 실적 press release엔 미기재**. 사실로 단정 금지 | ⚠️ 미검증 |
 | **CHIPS 보조금** | 美 상무부 **3억 달러 지원 의향서(LOI) 체결('26.7.29)**, 정부 ~1% 지분 (SiPh 웨이퍼·광소재·패키징·NPO/CPO) | 1급(GF 공식) |
 
 ## 포지션 — "광엔진까지, 로직 결합은 고객"
@@ -39,11 +39,11 @@ CPO 제조를 3층위로 나누면 GF의 역할이 명확:
 
 ## 워드용 문구 (사실 기반)
 > "글로벌파운드리스 : 광학칩(PIC)을 2018년부터 양산해온 실리콘 포토닉스 전문 파운드리 — Ayar Labs·Lightmatter 등 팹리스 광기업 제조처(엔비디아 공급망 연결). CPO는 광엔진(SCALE) 공급형(merchant) 전략, 美 CHIPS 3억 달러 보조금 의향서 체결('26.7)"
-- 각주: 대형 로직 결합(CoWoS급)은 고객 몫 / CPO 본격 양산 '28말~'29 전망 / 유리기판(패키지 기판)은 미참여
+- 각주: 대형 로직 결합(CoWoS급)은 고객 몫 / CPO 본격 양산 시점은 GF 공식 미발표(보도는 '28말~'29 언급) / 유리기판(패키지 기판)은 미참여
 
 ## 출처 (등급)
 - **1급(GF 공식)**: SCALE 발표 https://gf.com/gf-press-release/globalfoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-ai-data-centers-with-scale-optical-module-solution/ / CHIPS LOI https://gf.com/news-and-events/news/globalfoundries-signs-letter-of-intent-with-the-us-department-of-commerce-for-a-300-million-award-to-accelerate-us-silicon-photonics-leadership/ / AMF 인수·실리콘포토닉스 https://gf.com/technologies/silicon-photonics/
 - **2급(권위 trade)**: Tom's Hardware(CPO 파운드리 로드맵·역할분담) https://www.tomshardware.com/tech-industry/artificial-intelligence/co-packaged-optics-cpo-foundry-roadmaps-breaking-down-tsmc-intel-samsung-and-globalfoundries-approach-to-next-generation-scale-up-connectivity / TrendForce(SiPh 매출·AMF) / Digitimes / Techtimes(3D 하이브리드 본딩 PIC+EIC) / optics.org(Corning GlassBridge) https://optics.org/news/16/9/49 / The Register(CHIPS 1% 지분)
 - **참고**: Forbes·Moor(2020, "GF 조용히 SiPh 제조 강자") https://www.forbes.com/sites/moorinsights/2020/03/31/globalfoundries-has-quietly-become-a-player-in-silicon-photonics-manufacturing/
 
-> 주의: CPO 양산 시점(2028말~2029)은 GF 경영진 가이던스이며, 구체적 "CPO 양산 연도" 확정 발표는 아님. CHIPS 3억 달러는 **의향서(LOI)** 단계로 최종 확정 아님.
+> 주의: "CPO 양산 2028말~2029"는 **GF 공식 실적 press release(EX-99.1) 미기재** — trade press/실적 콜 코멘터리 수준. GF 공식 "CPO 양산 연도" 발표는 없음. CHIPS 3억 달러는 **의향서(LOI)** 단계로 최종 확정 아님.
