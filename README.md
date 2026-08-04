@@ -16,6 +16,7 @@ supply/
 │   │   ├── broadcom-brief.md      #   └ 브리프: 브로드컴(개방 진영) CPO·AI 네트워킹
 │   │   ├── foundry-packaging-brief.md  # └ 브리프: 제조/패키징 진영(TSMC·삼성·GF·인텔)+유리기판
 │   │   ├── intel-cpo-brief.md     #   └ 브리프: 인텔 CPO/광 집적 상세(OCI·유리기판·정정목록)
+│   │   ├── gf-cpo-brief.md        #   └ 브리프: 글로벌파운드리스 CPO/실리콘 포토닉스 상세
 │   │   └── assets/               #   └ 도표·다이어그램·이미지
 │   └── 2026-07_datacenter-cpo-stocks/  # CPO 도입과 데이터센터 관련주 영향
 │       ├── report.md             #   └ 본문 (밸류체인별 관련주·티커·영향)
